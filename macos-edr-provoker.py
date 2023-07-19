@@ -120,7 +120,7 @@ if __name__ == "__main__":
         if response == "Y":
             print("Test 3: Encrypting files...")
             encrypt_folder_contents(key)
-        elif response == "n":
+        else:
             print("Encryption skipped.")
 
         # Test 4: Start a reverse shell
